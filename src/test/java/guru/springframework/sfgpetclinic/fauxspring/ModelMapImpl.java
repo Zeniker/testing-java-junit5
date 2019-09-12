@@ -1,6 +1,4 @@
-package guru.springframework.fauxspring;
-
-import guru.springframework.sfgpetclinic.fauxspring.Model;
+package guru.springframework.sfgpetclinic.fauxspring;
 
 import java.util.HashMap;
 import java.util.Map;
