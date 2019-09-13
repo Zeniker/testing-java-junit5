@@ -44,4 +44,10 @@ class PersonTest implements ModelTests {
     void myRepeatedTestWithDI(TestInfo testInfo, RepetitionInfo repetitionInfo) {
         System.out.println(testInfo.getDisplayName() + ": " + repetitionInfo.getCurrentRepetition());
     }
+
+    @RepeatedTest(value = 5, name = "{displayName} : {currentRepetition}/{totalRepetitions}")
+    @DisplayName("My Assignment Repeated Test")
+    void myAssignmentRepeated() {
+        //todo impl
+    }
 }
